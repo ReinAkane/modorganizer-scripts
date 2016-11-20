@@ -1,3 +1,6 @@
+## ONLY FUNCTIONS WITH MOD ORGANIZER ##
+http://wiki.step-project.com/Mod_Organizer
+
 ## Intro ##
 When I had ten or so profiles in Mod Organizer of all the different characters
 I played in Skryim I noticed a little problem. Some of the programs that one
