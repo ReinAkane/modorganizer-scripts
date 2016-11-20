@@ -2,6 +2,8 @@
 MO = "C:\\Program Files (x86)\\Mod Organizer"
 
 # Path to a temp folder used for copying mods.
+# If you change this after running provision_char, make sure you delete the old
+# folder.
 TEMP = File.join(MO, "temp")
 
 # Mods folder in your Mod Organizer install
@@ -18,6 +20,7 @@ BACKUP_MO_INI = "#{MO_INI}.backup"
 
 # Base profiles that must be safe to edit. Any profile other than these may
 # cause side effects on other profiles when edited.
+# May not be safe to change to a profile that has already been merged.
 BASE_PROFILES = [
   "SHARED",
   "BASE"
