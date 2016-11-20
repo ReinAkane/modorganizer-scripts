@@ -33,50 +33,27 @@ Close Mod Organizer and run `ruby provision_char.rb`. Here's a sample run:
 
 ```
 Use what source? (BASE) > BASE		// The base profile you are copying from
-
 Provision what profile? > Fred		// The new profile you want to create
-
 Checking for C:\Program Files (x86)\Mod Organizer\Profiles\Fred...
-
 Fred exists
-
 Provision mods from BASE to Fred? (yN) > y		// Enter N if you had a typo in your source or profile
-
 Temp touched
-
 Copying BASE to temp...
-
 Copying C:\Program Files (x86)\Mod Organizer\mods\BASE - Some crazy mod...
-
 Copying C:\Program Files (x86)\Mod Organizer\mods\BASE - Some OTHER crazy mod...
-
 BASE copied
-
 Renaming BASE files...
-
 Renaming to Fred - Some crazy mod...
-
 Renaming to Fred - Some OTHER crazy mod...
-
 BASE mods renamed to Fred
-
 Reviewed C:\Program Files (x86)\Mod Organizer\temp for final move? (yN) > y // You can enter N here to cancel the operation.
-
 Moving Fred to mods...
-
 Moving C:\Program Files (x86)\Mod Organizer\temp\Fred - Some crazy mod...
-
 Moving C:\Program Files (x86)\Mod Organizer\temp\Fred - Some OTHER crazy mod...
-
 Please open ModOrganizer and reload the modlist
-
 ModOrganizer opened and closed? (yN) > y		// Here you need to open Mod Organizer and select the new profile (Fred), then close Mod Organizer again
-
 Correcting modlist...
-
 Modlist corrected
-
-
 
 Fred provisioned.
 ```
